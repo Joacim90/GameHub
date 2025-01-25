@@ -1,0 +1,258 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "poppins";
+}
+
+body {
+  background-color: black;
+  padding: 5px 10px;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+p {
+  line-height: 1.7;
+}
+span,
+a {
+  color: #3fa535;
+}
+h1,
+h3,
+p {
+  color: white;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+
+.clr-primary {
+  color: #3fa535;
+}
+
+.clr-white {
+  color: white;
+}
+
+button {
+  background-color: #131313;
+  border: 2px solid #3fa535;
+  border-radius: 100px;
+  color: #fff;
+  padding: 15px 30px;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+header {
+  background-color: #3fa535;
+  margin-bottom: 40px;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+.gamhub-logo img {
+  max-height: 120px;
+}
+
+.nav-links a {
+  margin-right: 15px;
+  color: black;
+  font-size: 12px;
+}
+
+.nav-links a:last-child {
+  display: none;
+}
+.nav-icons {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+section {
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.hero,
+.text-hero {
+  background-color: #131313;
+}
+
+.hero h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.product-image,
+.product-title,
+.product-price,
+.game-card-title {
+  margin-bottom: 20px;
+}
+
+.product-cards {
+  padding: 0;
+}
+.game-card {
+  background-color: #131313;
+  padding: 20px;
+}
+
+.game-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px 20px;
+}
+.hidden {
+  visibility: hidden;
+}
+
+.game-card-title {
+  font-size: 21px;
+}
+
+.product-title {
+  color: #3fa535;
+}
+.product-price,
+.product-price-sale {
+  font-size: 20px;
+}
+.product-price-sale {
+  text-decoration: line-through 5px solid rgba(255, 0, 0, 0.518);
+}
+
+.add-to-cart-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.add-to-cart {
+  font-size: 18px;
+}
+
+.sell-games-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.anchor-arrow {
+  visibility: hidden;
+}
+
+footer {
+  background-color: #131313;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+footer a {
+  display: inline-block;
+}
+
+@media (min-width: 720px) {
+  .sell-games-icons {
+    display: flex;
+    align-items: center;
+  }
+  .sell-games-text {
+    display: flex;
+    flex-direction: row;
+  }
+  .gamehub-logo-green {
+    max-width: 220px;
+  }
+}
+
+/* Responsive header/nav */
+
+@media (min-width: 1350px) {
+  nav {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .nav-links a {
+    margin-right: 60px;
+    font-size: 22px;
+    font-weight: 500;
+  }
+  .nav-links a:last-child {
+    display: inline-block;
+    margin-right: 0;
+  }
+  .anchor-arrow {
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+    visibility: visible;
+    margin-top: 20px;
+  }
+  .anchor-arrow img {
+    max-width: 80px;
+  }
+  .nav-icons img {
+    max-width: 50px;
+  }
+}
+
+/* Responsive hero */
+
+@media (min-width: 720px) {
+  .hero-h1 h1 {
+    font-size: 40px;
+  }
+  .hero button {
+    padding: 15px 90px;
+    border-radius: 100px;
+    font-size: 25px;
+  }
+}
+
+/* Responsive product cards */
+
+@media (min-width: 720px) {
+  .game-card-title {
+    font-size: 40px;
+  }
+
+  .game-card {
+    padding: 20px 40px;
+  }
+}
+
+/* Responsive text hero */
+
+@media (min-width: 720px) {
+  .text-hero h3 {
+    font-size: 30px;
+    padding: 40px;
+  }
+}
+@media (min-width: 1016px) {
+  .hero-h1 h1 {
+    font-size: 60px;
+  }
+}
