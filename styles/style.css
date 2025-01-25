@@ -157,6 +157,10 @@ section {
   margin-bottom: 20px;
 }
 
+.sell-games {
+  background-color: #131313;
+}
+
 .anchor-arrow {
   visibility: hidden;
 }
