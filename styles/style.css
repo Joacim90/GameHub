@@ -138,6 +138,7 @@ section {
 }
 .product-price-sale {
   text-decoration: line-through 5px solid rgba(255, 0, 0, 0.518);
+  -webkit-text-decoration: line-through 5px solid rgba(255, 0, 0, 0.518);
 }
 
 .add-to-cart-btn {
