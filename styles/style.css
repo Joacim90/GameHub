@@ -150,17 +150,6 @@ section {
   font-size: 18px;
 }
 
-.sell-games-text {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin-bottom: 20px;
-}
-
-.sell-games {
-  background-color: #131313;
-}
-
 .anchor-arrow {
   visibility: hidden;
 }
@@ -175,20 +164,6 @@ footer {
 
 footer a {
   display: inline-block;
-}
-
-@media (min-width: 720px) {
-  .sell-games-icons {
-    display: flex;
-    align-items: center;
-  }
-  .sell-games-text {
-    display: flex;
-    flex-direction: row;
-  }
-  .gamehub-logo-green {
-    max-width: 220px;
-  }
 }
 
 /* Responsive header/nav */
