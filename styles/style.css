@@ -154,6 +154,37 @@ section {
   visibility: hidden;
 }
 
+.sell-games {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.sell-games-container {
+  background-color: #131313;
+}
+
+.sell-games-logo img {
+  max-width: 200px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+  gap: 5px;
+}
+
+.sell-games-text {
+  margin-top: 20px;
+}
+
+.icon img {
+  max-width: 50px;
+}
+
 footer {
   background-color: #131313;
   display: flex;
@@ -234,5 +265,32 @@ footer a {
 @media (min-width: 1016px) {
   .hero-h1 h1 {
     font-size: 60px;
+  }
+}
+
+@media (min-width: 1020px) {
+  .sell-games {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .icon img {
+    max-width: 100px;
+  }
+  .sell-games-logo img {
+    max-width: 300px;
+  }
+  .sell-games-text {
+    font-size: 30px;
+  }
+  .sell-games-container h4 {
+    padding: 40px 130px;
+  }
+  .sell-games-container {
+    padding-top: 40px;
+  }
+  .icons {
+    gap: 10px;
   }
 }
