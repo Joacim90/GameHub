@@ -44,11 +44,6 @@
   max-width: 350px;
 }
 
-.cart-button {
-  display: flex;
-  justify-content: center;
-}
-
 @media (min-width: 1150px) {
   .product-info {
     flex-direction: row;
@@ -62,11 +57,6 @@
   .cart-button {
     display: flex;
     justify-content: center;
-  }
-  .cart-button button {
-    padding: 20px 120px;
-    font-size: 25px;
-    margin-top: -100px;
   }
 }
 

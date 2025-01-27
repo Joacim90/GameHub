@@ -199,7 +199,7 @@ footer a {
 
 /* Responsive header/nav */
 
-@media (min-width: 1350px) {
+@media (min-width: 1200px) {
   nav {
     flex-direction: row;
     justify-content: space-between;
