@@ -77,13 +77,14 @@ nav {
   font-size: 12px;
 }
 
-.nav-links a:last-child {
-  display: none;
-}
 .nav-icons {
   margin-top: 20px;
   display: flex;
   gap: 20px;
+}
+
+.nav-icons img {
+  max-width: 50px;
 }
 
 section {
@@ -199,6 +200,14 @@ footer a {
 
 /* Responsive header/nav */
 
+@media (min-width: 900px) {
+  .nav-links a {
+    margin-right: 60px;
+    font-size: 21px;
+    font-weight: 500;
+  }
+}
+
 @media (min-width: 1200px) {
   nav {
     flex-direction: row;
@@ -207,13 +216,10 @@ footer a {
 
   .nav-links a {
     margin-right: 60px;
-    font-size: 22px;
+    font-size: 21px;
     font-weight: 500;
   }
-  .nav-links a:last-child {
-    display: inline-block;
-    margin-right: 0;
-  }
+
   .anchor-arrow {
     display: flex;
     justify-content: end;
@@ -223,9 +229,6 @@ footer a {
   }
   .anchor-arrow img {
     max-width: 80px;
-  }
-  .nav-icons img {
-    max-width: 50px;
   }
 }
 
