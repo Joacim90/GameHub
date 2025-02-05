@@ -45,7 +45,7 @@
   max-width: 290px;
 }
 
-@media (min-width: 1150px) {
+@media (min-width: 1450px) {
   .product-info {
     flex-direction: row;
     justify-content: space-evenly;
