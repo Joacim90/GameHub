@@ -139,8 +139,8 @@ section {
 }
 .product-price-sale {
   text-decoration: line-through 5px solid;
-  text-decoration-line: line-through 5px solid;
-  -webkit-text-decoration-line: line-through;
+  text-decoration-line: line-through;
+  -webkit-text-decoration-line: line-through 5px solid;
   text-decoration-color: rgba(255, 0, 0, 0.694);
   -webkit-text-decoration-color: rgba(255, 0, 0, 0.694);
 }
