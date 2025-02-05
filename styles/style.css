@@ -139,6 +139,10 @@ section {
 }
 .product-price-sale {
   text-decoration: line-through 5px solid rgba(255, 0, 0, 0.518);
+  text-decoration-line: line-through;
+  -webkit-text-decoration-line: line-through;
+  text-decoration-color: blue;
+  -webkit-text-decoration-color: red;
 }
 
 .add-to-cart-btn {
