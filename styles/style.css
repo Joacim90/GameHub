@@ -39,13 +39,21 @@ p {
   color: white;
 }
 
-button {
+.main-btn,
+button,
+.game-card-btn {
   background-color: #131313;
   border: 2px solid #3fa535;
   border-radius: 100px;
   color: #fff;
   padding: 15px 30px;
-  cursor: pointer;
+  cursor: point;
+}
+
+.main-btn {
+  display: inline-block;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 img {
@@ -241,7 +249,8 @@ footer a {
   .hero-h1 h1 {
     font-size: 40px;
   }
-  .hero button {
+  .hero button,
+  .main-btn {
     padding: 15px 90px;
     border-radius: 100px;
     font-size: 25px;
