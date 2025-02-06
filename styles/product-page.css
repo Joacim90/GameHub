@@ -49,15 +49,6 @@ section {
   margin-bottom: 50px;
 }
 
-.product-page-btn button {
-  border-radius: 5px;
-  background-color: #3fa535;
-  color: black;
-  margin: 15px 0;
-  padding: 10px 50px;
-  font-weight: 600;
-  font-size: 19px;
-}
 .product-page-btn {
   display: flex;
   justify-content: center;
