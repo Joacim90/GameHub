@@ -63,6 +63,13 @@ p {
   margin: 30px 0;
 }
 
+.hero-button {
+  padding: 10px 40px;
+  display: inline-block;
+  font-size: 15px;
+  margin: 5px 0;
+}
+
 .main-btn {
   display: inline-block;
   margin-bottom: 20px;
@@ -266,6 +273,12 @@ footer a {
     padding: 10px 30px;
     border-radius: 100px;
     font-size: 20px;
+  }
+  .hero-button {
+    margin: 20px 0;
+    padding: 20px 100px;
+    display: inline-block;
+    font-size: 24px;
   }
 }
 
