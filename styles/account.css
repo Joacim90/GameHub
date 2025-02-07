@@ -32,8 +32,15 @@ h1 {
   gap: 20px;
   padding: 20px 50px;
 }
-
 @media (min-width: 720px) {
+  .my-account {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+    gap: 20px;
+    padding: 20px 0;
+  }
+}
+@media (min-width: 1560px) {
   .my-account {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
