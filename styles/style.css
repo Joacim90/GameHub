@@ -47,6 +47,11 @@ p {
   color: #fff;
   padding: 15px 30px;
   cursor: pointer;
+  transition: 0.2s ease-in;
+}
+
+.button-primary:hover {
+  background-color: #368d2e;
 }
 
 .button-primary-small {

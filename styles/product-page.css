@@ -53,12 +53,6 @@ section {
   display: flex;
   justify-content: center;
 }
-.button-primary {
-  transition: 0.3s ease-in;
-}
-.button-primary:hover {
-  background-color: #368d2e;
-}
 
 @media (min-width: 720px) {
   .product-page {
