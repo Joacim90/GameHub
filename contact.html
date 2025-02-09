@@ -67,14 +67,20 @@
         <img src="images/mail.png" alt="email icon" />
       </div>
       <div class="contact-box">
-        <input type="text" class="field" id="Name" placeholder="Your Name" />
-        <label hidden for="name">Name</label>
+        <label for="name">Name</label>
+        <input
+          type="text"
+          class="field"
+          id="Name"
+          aria-label="Your name"
+          placeholder="Your Name"
+        />
+        <label for="email">Email</label>
         <input type="text" class="field" id="email" placeholder="Your Email" />
-        <label hidden for="email">Email</label>
+        <label for="phone">Phone</label>
         <input type="text" class="field" id="phone" placeholder="Phone" />
-        <label hidden for="phone">Phone</label>
         <textarea placeholder="Message" id="text" class="field"></textarea>
-        <label hidden for="textarea">Text</label>
+        <label for="textarea">Text</label>
         <a href="message-sent.html" class="button-primary">Send</a>
       </div>
     </div>
