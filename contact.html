@@ -62,15 +62,32 @@
     <h1 class="text-center">Get in <span>touch</span></h1>
     <div class="container">
       <div class="contact-icons">
-        <img src="images/chat.png" alt="" />
-        <img src="images/phone.png" alt="" />
-        <img src="images/mail.png" alt="" />
+        <img src="images/chat.png" alt="chat icon" />
+        <img src="images/phone.png" alt="phone icon" />
+        <img src="images/mail.png" alt="email icon" />
       </div>
       <div class="contact-box">
-        <input type="text" class="field" placeholder="Your Name" />
-        <input type="text" class="field" placeholder="Your Email" />
-        <input type="text" class="field" placeholder="Phone" />
-        <textarea placeholder="Message" class="field"></textarea>
+        <label for="name">
+          <input type="text" class="field" id="name" placeholder="Your Name" />
+        </label>
+        <label for="email">
+          <input
+            type="text"
+            class="field"
+            id="email"
+            placeholder="Your Email"
+          />
+        </label>
+        <label for="phone">
+          <input type="text" class="field" id="phone" placeholder="Phone" />
+        </label>
+        <label for="meessage">
+          <textarea
+            placeholder="Message"
+            id="meessage"
+            class="field"
+          ></textarea>
+        </label>
         <a href="message-sent.html" class="button-primary">Send</a>
       </div>
     </div>
