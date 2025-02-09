@@ -67,7 +67,6 @@
         <img src="images/mail.png" alt="email icon" />
       </div>
       <div class="contact-box">
-        <label for="name">Name</label>
         <input
           type="text"
           class="field"
@@ -75,12 +74,28 @@
           aria-label="Your name"
           placeholder="Your Name"
         />
-        <label for="email">Email</label>
-        <input type="text" class="field" id="email" placeholder="Your Email" />
-        <label for="phone">Phone</label>
-        <input type="text" class="field" id="phone" placeholder="Phone" />
-        <textarea placeholder="Message" id="text" class="field"></textarea>
-        <label for="textarea">Text</label>
+        <input
+          type="text"
+          class="field"
+          id="email"
+          aria-label="Your email"
+          placeholder="Your Email"
+        />
+
+        <input
+          type="text"
+          class="field"
+          id="phone"
+          aria-label="Phone"
+          placeholder="Phone"
+        />
+        <textarea
+          placeholder="Message"
+          id="text"
+          aria-label="textarea"
+          class="field"
+        ></textarea>
+
         <a href="message-sent.html" class="button-primary">Send</a>
       </div>
     </div>
