@@ -68,7 +68,7 @@ h4 {
   }
 
   .heading {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .order-info {
@@ -83,16 +83,16 @@ h4 {
   }
 
   h3 {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   h4 {
-    font-size: 24px;
+    font-size: 20px;
   }
 }
 
 @media (min-width: 720px) {
   .order img {
-    max-width: 400px;
+    max-width: 280px;
   }
 }
